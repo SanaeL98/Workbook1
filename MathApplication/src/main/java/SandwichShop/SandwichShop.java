@@ -30,7 +30,7 @@ public class SandwichShop {
             price *= 0.80;
         }
 
-        System.out.printf("Final price: $%.2f\n", price);
+        System.out.print("$" + Math.round(price * 100.0) / 100.0);
 
         input.close();
 
